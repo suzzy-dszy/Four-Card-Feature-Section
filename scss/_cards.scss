@@ -1,0 +1,71 @@
+@use 'variables' as *;
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	max-inline-size: 31.25rem;
+
+	hgroup {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__subtitle {
+		font-size: 1.40625rem;
+		font-weight: $fw-medium;
+	}
+
+	&__title {
+		color: $secondary-color-dark-blue;
+		font-weight: $fw-bold;
+		margin-bottom: 0.625rem;
+	}
+
+	&__intro {
+		width: 80%;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	&__text {
+		color: $secondary-color-gray-blue;
+		font-weight: $fw-regular;
+	}
+
+	&__card {
+		margin-top: 1rem;
+		padding: 1rem;
+		width: 100%;
+		background-color: $secondary-color-white;
+		border-radius: 0.3125rem;
+		box-shadow: 0px 4px 20px hsla(212, 86%, 64%, 0.305);
+
+		img {
+			height: 2.5rem;
+		}
+
+		&--img {
+			display: flex;
+			flex-direction: row-reverse;
+			margin: 0.625rem;
+		}
+
+		&--1 {
+			border-top: 3px solid $primary-color-cyan;
+		}
+
+		&--2 {
+			border-top: 3px solid $primary-color-red;
+		}
+		&--3 {
+			border-top: 3px solid $primary-color-orange;
+		}
+		&--4 {
+			border-top: 3px solid $primary-color-blue;
+		}
+	}
+}

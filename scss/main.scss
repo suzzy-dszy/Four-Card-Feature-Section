@@ -1,5 +1,6 @@
-@use "resets" as *;
-@use "variables" as *;
+@use 'resets' as *;
+@use 'variables' as *;
+@use 'cards' as *;
 
 body {
 	display: flex;
@@ -8,7 +9,7 @@ body {
 	height: 100vh;
 	background-color: $secondary-color-light-gray;
 	font-family: $poppins;
-    font-size: $fs-md;
+	font-size: $fs-md;
 }
 
 .attribution {

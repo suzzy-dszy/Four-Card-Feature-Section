@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 $primary-color-red: hsl(0, 78%, 62%);
 $primary-color-cyan: hsl(180, 62%, 55%);
@@ -8,8 +8,9 @@ $primary-color-blue: hsl(212, 86%, 64%);
 $secondary-color-dark-blue: hsl(234, 12%, 34%);
 $secondary-color-gray-blue: hsl(229, 6%, 66%);
 $secondary-color-light-gray: hsl(0, 0%, 98%);
+$secondary-color-white: #fff;
 
-$poppins: "Poppins", "sans serif";
+$poppins: 'Poppins', 'sans serif';
 
 // Font Size
 $fs-sm: 0.75rem; // 12px
