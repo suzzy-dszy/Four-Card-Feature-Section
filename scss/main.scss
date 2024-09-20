@@ -1,0 +1,21 @@
+@use "resets" as *;
+@use "variables" as *;
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background-color: $secondary-color-light-gray;
+	font-family: $poppins;
+    font-size: $fs-md;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
