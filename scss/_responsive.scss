@@ -2,6 +2,9 @@
 @use 'mixins' as *;
 
 @include tablet-view {
+    body{
+        justify-content: center;
+    }
 	.cards {
 		max-inline-size: none;
 		&__wrapper {
