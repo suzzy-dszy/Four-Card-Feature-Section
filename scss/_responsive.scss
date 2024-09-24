@@ -1,0 +1,62 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+@include tablet-view {
+	.cards {
+		max-inline-size: none;
+		&__wrapper {
+			max-inline-size: 100vw;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			justify-content: center;
+			align-items: center;
+			gap: 2rem;
+
+			&--flex2 {
+				grid-column-start: 2;
+				grid-row-start: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 2rem;
+			}
+		}
+
+		&__card {
+			margin: 0;
+
+			&--1,
+			&--2,
+			&--3 {
+				width: 23.5ch;
+			}
+
+			&--4 {
+				width: 23.5ch;
+				grid-column-start: 3;
+			}
+		}
+	}
+}
+
+@include desktop-view {
+	.cards {
+		&__card {
+			&--1 {
+				width: 35ch;
+			}
+
+			&--2 {
+				width: 35ch;
+			}
+
+			&--3 {
+				width: 35ch;
+			}
+
+			&--4 {
+				width: 35ch;
+			}
+		}
+	}
+}

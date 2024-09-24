@@ -36,6 +36,11 @@
 		font-weight: $fw-regular;
 	}
 
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
 	&__card {
 		margin-top: 1rem;
 		padding: 1rem;
@@ -56,16 +61,20 @@
 
 		&--1 {
 			border-top: 3px solid $primary-color-cyan;
+			order: 0;
 		}
 
 		&--2 {
 			border-top: 3px solid $primary-color-red;
+			order: 1;
 		}
 		&--3 {
 			border-top: 3px solid $primary-color-orange;
+			order: 2;
 		}
 		&--4 {
 			border-top: 3px solid $primary-color-blue;
+			order: 3;
 		}
 	}
 }

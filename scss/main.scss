@@ -1,6 +1,8 @@
 @use 'resets' as *;
 @use 'variables' as *;
 @use 'cards' as *;
+@use 'responsive' as *;
+@use 'mixins' as *;
 
 body {
 	display: flex;
