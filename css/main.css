@@ -214,7 +214,6 @@ table {
   }
   .cards__wrapper--flex2 {
     grid-column-start: 2;
-    grid-row-start: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
