@@ -5,8 +5,10 @@
 	body {
 		justify-content: center;
 	}
+
 	.cards {
 		max-inline-size: none;
+
 		&__wrapper {
 			max-inline-size: 100vw;
 			display: grid;
